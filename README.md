@@ -51,7 +51,6 @@ Asegúrate de estar posicionado en tu rama (`git branch` para verificar) y ejecu
 ```bash
 git pull origin main
 ```
-> **Nota:** Si al hacer esto aparece un conflicto, Git te avisará. Deberás abrir tu editor de código, resolver el conflicto manualmente, guardar los archivos y luego hacer un `git add .` y `git commit -m "Resuelvo conflictos"`.
 
 ### Paso B: Subir tu rama a GitHub (Push)
 Una vez que tu rama está actualizada con `main` y sin conflictos, ya puedes subirla al repositorio:
@@ -61,8 +60,6 @@ git push origin nombre-de-tu-rama
 ```
 
 ### Paso C: Crear el Pull Request (PR)
-1. Ve a la página del repositorio en GitHub: [TP7-Biblioteca](https://github.com/SapioLucianoA/TP7-Biblioteca)
-2. Verás un botón verde que dice **"Compare & pull request"**. ¡Haz clic ahí!
-3. Deja un breve comentario de lo que hiciste y crea el PR para que el equipo pueda revisar y unir tu código al proyecto principal.
+1. El pull Request me encargo yo, avisan por el grupo que enviaron el pull y les aviso cuando esté
 
 ---
