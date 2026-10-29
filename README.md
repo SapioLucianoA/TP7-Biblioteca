@@ -45,21 +45,30 @@ Para evitar conflictos y dolores de cabeza, **siempre** debes traer las últimas
 
 Sigue estos pasos estrictamente antes de hacer un "Push":
 
-### Paso A: Actualizar tu rama con lo último de main
+### Paso A: Realizar el add y el commit como vienes haciendo. 
+Antes de "pullear" lo que hay en el main realizas el git "add ." y el "commit" para tener un guardado de tu trabajo.
+
+
+### Paso B: Actualizar tu rama con lo último de main
 Asegúrate de estar posicionado en tu rama (`git branch` para verificar) y ejecuta este comando para traer lo nuevo y fusionarlo con tu trabajo:
 
 ```bash
 git pull origin main
 ```
+### Paso C: git commit a la fusion.
+Ahora que tu rama está actualizada con el main, realizamos el paso del git "add ." y el "commit"
 
-### Paso B: Subir tu rama a GitHub (Push)
+### Paso D: Subir tu rama a GitHub (Push)
 Una vez que tu rama está actualizada con `main` y sin conflictos, ya puedes subirla al repositorio:
 
 ```bash
 git push origin nombre-de-tu-rama
 ```
 
-### Paso C: Crear el Pull Request (PR)
-1. El pull Request me encargo yo, avisan por el grupo que enviaron el pull y les aviso cuando esté
+### Paso E: Crear el Pull Request (PR)
+1. Mueven el nombre de su grupo en el Trello a "pull Request" y avisan en el grupo, traten de revisar en el Trello que no haya otro grupo en la lista de "Pull Request"
+   de esa manera evitamos conflictos con el main.
+2. Podrán realizar el paso D si no existe ningún otro grupo dentro de la lista de "Pull Request" en el Trello.
+3. En el caso de que estuvieran en la cola del "pull Request" recordar que deberán traer todo del main otra vez antes de enviar o su rama quedará desactualizada (siempre voy a avisar).
 
 ---
