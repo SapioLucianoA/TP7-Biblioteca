@@ -1,33 +1,50 @@
+import java.util.*;
 
-/**
- * Write a description of class Prestamo here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Prestamo
-{
-    // instance variables - replace the example below with your own
-    private int x;
+    public class Prestamo {
+    private Calendar fechaRetiro;
+    private Calendar fechaDevolucion;
+    private Socio socio;
+    private Libro libro;
 
-    /**
-     * Constructor for objects of class Prestamo
-     */
-    public Prestamo()
-    {
-        // initialise instance variables
-        x = 0;
+    public Prestamo(Calendar p_fechaRetiro, Socio p_socio, Libro p_libro) {
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    private void setFechaRetiro(Calendar p_fechaRetiro) {
     }
-}
+
+    public Calendar getFechaRetiro() {
+        return null;
+    }
+
+    private void setFechaDevolucion(Calendar p_fechaDevolucion) {
+    }
+
+    public void registrarFechaDevolucion(Calendar p_fechaDevolucion) {
+    }
+
+    public Calendar getFechaDevolucion() {
+        return null;
+    }
+
+    private void setSocio(Socio p_socio) {
+    }
+
+    public Socio getSocio() {
+        return null;
+    }
+
+    private void setLibro(Libro p_libro) {
+    }
+
+    public Libro getLibro() {
+        return null;
+    }
+
+    public boolean vencido(Calendar p_fecha) {
+        return true;
+    }
+
+    public String toString() {
+        return null;
+    }
+}   
