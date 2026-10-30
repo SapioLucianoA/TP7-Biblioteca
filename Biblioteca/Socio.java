@@ -1,33 +1,67 @@
+import java.util.*;
+import java.util.ArrayList; 
 
-/**
- * Write a description of class Socio here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Socio
-{
-    // instance variables - replace the example below with your own
-    private int x;
+    public abstract class Socio{
+    private int dniSocio;
+    private String nombre;
+    private int diasPrestamo;
+    private ArrayList <Prestamo> prestamos;
 
-    /**
-     * Constructor for objects of class Socio
-     */
-    public Socio()
-    {
-        // initialise instance variables
-        x = 0;
+  
+    public Socio(int p_dniSocio, String p_nombre, int p_diasPrestamo){
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    
+    public Socio(int p_dniSocio, String p_nombre, int p_diasPrestamo, ArrayList <Prestamo> p_prestamos){
     }
+    
+    private void setDniSocio(int p_dniSocio){
+    }
+    
+    public int getDniSocio(){
+        return 0;
+    }
+    
+    private void setNombre(String p_nombre){
+    }
+    
+    public String getNombre(){
+        return null;
+    }
+    
+    private void setPrestamos(ArrayList <Prestamo> p_prestamos){
+    }
+    
+    public ArrayList <Prestamo> getPrestamos(){
+        return null;
+    }
+    
+    public boolean addPrestamo(Prestamo p_prestamo){
+        return true;
+    }
+    
+    public boolean removePrestamo(Prestamo p_prestamo){
+         return true;
+    }
+    
+    public int cantLibrosPrestados(){
+        return 0;
+    }
+    
+    public void setDiasPrestamo(int p_dias){
+    }
+    
+    public int getDiasPrestamo(){
+        return 0;
+    }
+    
+    public String toString(){
+        return null;
+    }
+    
+    public boolean puedePedir(){
+        return true;
+    }
+    
+    public abstract String soyDeLaClase();
 }
