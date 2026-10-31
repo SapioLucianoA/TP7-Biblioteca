@@ -1,33 +1,62 @@
-
+import java.itul.*;
 /**
- * Write a description of class Estudiante here.
+ * Especialización de la clase Estudiante.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Gomez Varela, Verónica) 
+ * @version (1.0 50/10/2026)
  */
-public class Estudiante
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class Estudiante extends Socio{
+    //Variables de instancia
+    private String carrera;
 
     /**
-     * Constructor for objects of class Estudiante
+     * Constructor de objects de la clase Estudiante
      */
-    public Estudiante()
-    {
-        // initialise instance variables
-        x = 0;
+    public Estudiante(String p_dniSocio, String p_nombre, String p_carrera){
+        //Variable de instancia
+        super(p_dniSocio, p_nombre, 1);
+        this.setCarrera(p_carrera);
+        
     }
-
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Getters y Setters
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+     /**
+     * 
+     */
+    private void setCarrera(String p_carrera){
+        this.carrera = p_carrera;
+    }
+    
+     /**
+     * 
+     */
+    public String getCarrera(){
+        return this.carrera;
+    }
+    
+   
+    /**
+     * Devuelve true si el Estudiante no tiene ningún préstamo vencido y si no tiene más 
+     * de 3 libros prestados (en su poder). 
+     * 
+     * @param no posee parametros  
+     * @return  devuelve un tipo bollean    
+     */
+    public boolean puedePedir(){
+    
+        
+        return ;
+    }
+    
+    /**
+     * Devuelve el nombre del tipo de clase 
+     * 
+     * @param no posee parametros  
+     * @return un tipo String     
+     */
+    public String soyDeLaClase(){
+        return "Estudiante";
     }
 }
