@@ -1,0 +1,5 @@
+# Archivos de configuracion y compilados de BlueJ
+*.class
+*.ctxt
+package.bluej
+doc/
