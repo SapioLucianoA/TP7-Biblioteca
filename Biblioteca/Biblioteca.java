@@ -142,6 +142,7 @@ public class Biblioteca {
         this.socios = socios;
     }
 
+
     /**
      * agrega un libro a la coleccion de libros de la biblioteca
      * @param p_titulo el titulo del libro a agregar
@@ -201,4 +202,118 @@ public class Biblioteca {
         }
         throw new LibroNoPrestadoException("El libro " + libro.getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public int cantidadDeSociosPorTipo(String p_objeto){
+         return 0;
+    }
+    public ArrayList<Prestamo> prestamosVencidos(){
+        return null;
+    }
+    public ArrayList<Docente> docentesResponsables(){
+        return null;
+    }
+    public String quienTieneElLibro(Libro p_libro){
+        return "";
+    }
+    public String listaDeSocios(){
+        return "";
+    }
+    
+    
+    
+    
+    
+    
+    
+      
+
 }
