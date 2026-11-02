@@ -141,4 +141,178 @@ public class Biblioteca {
     public void setSocios(ArrayList<Socio> socios) {
         this.socios = socios;
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public int cantidadDeSociosPorTipo(String p_objeto){
+         return 0;
+    }
+    public ArrayList<Prestamo> prestamosVencidos(){
+        return null;
+    }
+    public ArrayList<Docente> docentesResponsables(){
+        return null;
+    }
+    public String quienTieneElLibro(Libro p_libro){
+        return "";
+    }
+    public String listaDeSocios(){
+        return "";
+    }
+    
+    
+    
+    
+    
+    
+    
+      
 }
