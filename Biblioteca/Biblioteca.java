@@ -141,68 +141,68 @@ public class Biblioteca {
     public void setSocios(ArrayList<Socio> socios) {
         this.socios = socios;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+    /**
+     * agrega un libro a la coleccion de libros de la biblioteca
+     * @param p_titulo el titulo del libro a agregar
+     * @param p_edicion del libro a agregar
+     * @param p_editorial de origen del libro
+     * @param p_anio de publicacion del libro
+     */
+    public void nuevoLibro(String p_titulo, String p_edicion, String p_editorial, int p_anio) {
+        Libro libro = new Libro(p_titulo, p_edicion, p_editorial, p_anio);
+        this.getLibros().add(libro);
+    }
+
+    /**
+     * agrega un socio estudiante a la coleccion de socios de la biblioteca
+     * @param p_dniSocio del socio a agregar
+     * @param p_nombre el nombre del socio a agregar
+     * @param p_carrera del socio a agregar
+     */
+    public void nuevoSocioEstudiante(int p_dniSocio, String p_nombre, String p_carrera) {
+        Socio socio = new Estudiante(p_dniSocio, p_nombre, p_carrera);
+        this.getSocios().add(socio);
+    }
+
+    /**
+     * agrega un socio profesor a la coleccion de socios de la biblioteca
+     * @param p_dniSocio del socio a agregar
+     * @param p_nombre el nombre del socio a agregar
+     * @param p_area del socio a agregar
+     */
+    public void nuevoSocioProfesor(int p_dniSocio, String p_nombre, String p_area) {
+        Socio socio = new Profesor(p_dniSocio, p_nombre, p_area);
+        this.getSocios().add(socio);
+    }
+
+    /**
+     * Crea el préstamo, y lo agrega en el libro y el socio.
+     * @param p_fecha de prestamo del libro
+     * @param p_socio que realiza el prestamo
+     * @param p_libro adjunto al prestamo
+     */
+    public boolean prestarLibro(String p_fecha, Socio p_socio, Libro p_libro) {
+        Prestamo prestamo = new Prestamo(p_fechaRetiro, p_socio, p_libro);
+        return p_libro.agregarPrestamo(prestamo) && p_socio.agregarPrestamo(prestamo);
+    }
+
+    /**
+     * Asigna la fecha de devolución del préstamo con la fecha actual
+     * @param p_prestamo el préstamo que se desea devolver
+     * @throws LibroNoPrestadoException si el libro no se encuentra prestado
+     */
+    public void devolverLibro(Prestamo p_prestamo) {
+        for (Libro libro : this.getLibros()) {
+            if (libro.getPrestamos().contains(p_prestamo)) {
+                libro.getPrestamos().get(p_prestamo).registrarFechaDevolucion(Calendar.getInstance());
+                return;
+            }
+        }
+        throw new LibroNoPrestadoException("El libro " + libro.getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
+    }
+
     
     
     
@@ -371,4 +371,5 @@ public class Biblioteca {
     
     
       
+
 }
