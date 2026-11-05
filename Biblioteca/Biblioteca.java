@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.*;
 /**
  * Representa una Biblioteca que administra una colección de libros y una lista de socios.
  * 
@@ -293,19 +293,75 @@ public class Biblioteca {
     
     
     public int cantidadDeSociosPorTipo(String p_objeto){
-         return 0;
+         int sociosTotales = 0;
+         for(Socio unSocio : this.getSocios()){
+             if(p_objeto.equalsIgnoreCase(unSocio.soyDeLaClase())){
+                 sociosTotales ++;
+             }
+         }
+         return sociosTotales;
     }
     public ArrayList<Prestamo> prestamosVencidos(){
-        return null;
+        Calendar fechaDeHoy =  Calendar.getInstance();
+        ArrayList<Prestamo> vencidos = new ArrayList<>();
+        for(Socio unSocio : this.getSocios()){
+            for(Prestamo unPrestamo : unSocio.getPrestamos()){
+                if(unPrestamo.vencido(fechaDeHoy)){
+                    vencidos.add(unPrestamo);
+                }
+            }
+        }
+        return vencidos;
     }
     public ArrayList<Docente> docentesResponsables(){
-        return null;
+        ArrayList<Docente> docentes = new ArrayList<>();
+        for(Socio unSocio : this.getSocios()){
+                if (unSocio.soyDeLaClase().equalsIgnoreCase("docente")) {
+                Docente elDocente = (Docente) unSocio;
+                if (elDocente.esResponsable()) {
+                    docentes.add(elDocente);
+                }
+            }
+        }
+        return docentes;
     }
     public String quienTieneElLibro(Libro p_libro){
-        return "";
+        if (p_libro.prestado()) {
+            Prestamo prestamoActual = p_libro.ultimoPrestamo();
+            for (Socio unSocio : this.getSocios()) {
+                if (unSocio.getPrestamos().contains(prestamoActual)) {
+                    return "El libro fue prestado a " + unSocio.getNombre() + " DNI: " + unSocio.getDniSocio(); 
+                }
+            }
+        }
+            return "El libro no se encuentra prestado actualmente";
     }
+
     public String listaDeSocios(){
-        return "";
+        String listadoSocios = "";
+        int ordenSocio = 1;
+        int socioEstudiantes = 0;
+        int socioDocentes = 0;
+        
+        for(Socio unSocio :this.getSocios()){
+            if(unSocio.soyDeLaClase().equalsIgnoreCase("docente")){
+                socioDocentes++;
+            }else{
+                socioEstudiantes++;
+            }
+            int librosPrestados = unSocio.cantLibrosPrestados();
+            listadoSocios = listadoSocios + "\n" + ordenSocio + ") " + "D.N.I: " + unSocio.getDniSocio() + " || " + unSocio.getNombre() + "(" + 
+            unSocio.soyDeLaClase()
+            +")" + " || "  + "Libros Prestados: " + librosPrestados;
+            
+            ordenSocio ++; 
+        }
+        
+            listadoSocios = listadoSocios + "\n ********************************** \n" +
+        "Cantidad de Socios de tipo Estudiante: " + socioEstudiantes + "\n" + 
+        "Cantidad de Socios de tipo Docente: " + socioDocentes + "\n ********************************** \n";
+        
+        return listadoSocios;
     }
     
     
