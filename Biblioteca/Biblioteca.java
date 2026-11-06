@@ -152,7 +152,7 @@ public class Biblioteca {
      * @param p_editorial de origen del libro
      * @param p_anio de publicacion del libro
      */
-    public void nuevoLibro(String p_titulo, String p_edicion, String p_editorial, int p_anio) {
+    public void nuevoLibro(String p_titulo, int p_edicion, String p_editorial, int p_anio) {
         Libro libro = new Libro(p_titulo, p_edicion, p_editorial, p_anio);
         this.getLibros().add(libro);
     }
@@ -175,7 +175,7 @@ public class Biblioteca {
      * @param p_area del socio a agregar
      */
     public void nuevoSocioProfesor(int p_dniSocio, String p_nombre, String p_area) {
-        Socio socio = new Profesor(p_dniSocio, p_nombre, p_area);
+        Socio socio = new Docente(p_dniSocio, p_nombre, p_area);
         this.getSocios().add(socio);
     }
 
@@ -185,9 +185,9 @@ public class Biblioteca {
      * @param p_socio que realiza el prestamo
      * @param p_libro adjunto al prestamo
      */
-    public boolean prestarLibro(String p_fecha, Socio p_socio, Libro p_libro) {
-        Prestamo prestamo = new Prestamo(p_fechaRetiro, p_socio, p_libro);
-        return p_libro.agregarPrestamo(prestamo) && p_socio.agregarPrestamo(prestamo);
+    public boolean prestarLibro(Calendar p_fecha, Socio p_socio, Libro p_libro) {
+        Prestamo prestamo = new Prestamo(p_fecha, p_socio, p_libro);
+        return p_libro.agregarPrestamo(prestamo) && p_socio.addPrestamo(prestamo);
     }
 
     /**
@@ -198,11 +198,12 @@ public class Biblioteca {
     public void devolverLibro(Prestamo p_prestamo) {
         for (Libro libro : this.getLibros()) {
             if (libro.getPrestamos().contains(p_prestamo)) {
-                libro.getPrestamos().get(p_prestamo).registrarFechaDevolucion(Calendar.getInstance());
+                int index = libro.getPrestamos().indexOf(p_prestamo); //para conocer el indice del prestamo de un libro dentro de la coleccion de prestamos
+                libro.getPrestamos().get(index).registrarFechaDevolucion(Calendar.getInstance());
                 return;
             }
         }
-        throw new LibroNoPrestadoException("El libro " + libro.getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
+        throw new LibroNoPrestadoException("El libro " + p_prestamo.getLibro().getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
 
     
