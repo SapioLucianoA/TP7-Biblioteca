@@ -127,7 +127,7 @@ public class Libro {
      * @param p_prestamo El objeto préstamo a registrar.
      */
     public void agregarPrestamo(Prestamo p_prestamo) {
-        
+        this.getPrestamos().add(p_prestamo);
     }
     
     /**
@@ -136,7 +136,12 @@ public class Libro {
      * @return boolean true si está en poder de un socio, false en caso contrario.
      */
     public boolean prestado() {
-        return false;
+         String s = super.toString(); 
+        Prestamo ultimo = this.ultimoPrestamo();
+        if (ultimo == null) {
+            return false;
+        }
+        return ultimo.getFechaDevolucion() == null;
     }
 
     /**
@@ -145,7 +150,10 @@ public class Libro {
      * @return Prestamo El préstamo más reciente, o null si no posee historial.
      */
     public Prestamo ultimoPrestamo() {
-        return null;
+        if (this.getPrestamos().isEmpty()) {
+            return null;
+        }
+        return this.getPrestamos().get(this.getPrestamos().size() - 1);
     }
 
     /**
@@ -155,6 +163,6 @@ public class Libro {
      */
     @Override
     public String toString() {
-        return "";
+         return "Titulo: " + this.getTitulo();
     }
 }
