@@ -1,3 +1,5 @@
+package Biblioteca;
+
 import java.util.*;
 /**
  *Especializacion de la clase Socio.
