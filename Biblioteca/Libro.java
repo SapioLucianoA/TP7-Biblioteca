@@ -136,14 +136,12 @@ public class Libro {
      * @return boolean true si está en poder de un socio, false en caso contrario.
      */
     public boolean prestado() {
-         String s = super.toString(); 
-        Prestamo ultimo = this.ultimoPrestamo();
-        if (ultimo == null) {
+        Prestamo ultimo = this.ultimoPrestamo();    
+        if (ultimo == null) {        //si el historial de prestamos esta vacio arroja false
             return false;
-        }
+        } 
         return ultimo.getFechaDevolucion() == null;
     }
-
     /**
      * Recupera el último préstamo registrado en el historial del libro.
      * 
@@ -152,16 +150,15 @@ public class Libro {
     public Prestamo ultimoPrestamo() {
         if (this.getPrestamos().isEmpty()) {
             return null;
-        }
+        }else{
         return this.getPrestamos().get(this.getPrestamos().size() - 1);
     }
-
+}
     /**
      * Retorna la representación del libro en cadena de texto según formato exigido.
      * 
      * @return String Cadena con el formato "Titulo: <<titulo>>".
      */
-    @Override
     public String toString() {
          return "Titulo: " + this.getTitulo();
     }
