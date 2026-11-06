@@ -126,7 +126,7 @@ public class Libro {
      * 
      * @param p_prestamo El objeto préstamo a registrar.
      */
-    public void agregarPrestamo(Prestamo p_prestamo) {
+    public boolean agregarPrestamo(Prestamo p_prestamo) {
         this.getPrestamos().add(p_prestamo);
     }
     
