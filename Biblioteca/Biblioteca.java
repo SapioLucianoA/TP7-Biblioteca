@@ -206,95 +206,98 @@ public class Biblioteca {
         throw new LibroNoPrestadoException("El libro " + p_prestamo.getLibro().getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    /**
+     * Busca y devuelve el socio que posee el DNI pasado como parámetro.
+     * 
+     * @param dni El DNI del socio a buscar.
+     * @return El objeto Socio encontrado, o null si no existe.
+     */
+    public Socio buscarSocio(int p_dniSocio) {
+        for (Socio s : socios) {
+            if (s.getDniSocio() == p_dniSocio) {
+                return s;
+            }
+        }
+        return null;
+    }
+    
+    /**
+     * Devuelve una cadena de texto formateada con la lista de libros de la biblioteca.
+     * 
+     * @return String con el listado de libros.
+     */
+    public String listaDeLibros() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Lista de Libros:\n\n");
+        
+        int i = 1;
+        for (Libro l : libros) {
+            String prestadoStr = l.prestado() ? "(Si)" : "(No)";
+            
+            sb.append(i).append(") Titulo: ").append(l.getTitulo())
+              .append(" || Prestado: ").append(prestadoStr)
+              .append("\n");
+            i++;
+        }
+        
+        return sb.toString();
+    }
+
+    /**
+     * Devuelve una cadena de texto con la lista de los títulos con los que cuenta la Biblioteca,
+     * sin repetir en caso de haber más de un ejemplar.
+     * 
+     * @return String con los títulos únicos de la biblioteca.
+     */
+    public String listaDeTitulos() {
+        Set<String> titulosUnicos = new HashSet<>();
+        for (Libro l : libros) {
+            titulosUnicos.add(l.getTitulo());
+        }
+        StringBuilder sb = new StringBuilder();
+        for (String t : titulosUnicos) {
+            sb.append(t).append("\n");
+        }
+        return sb.toString();
+    }
+
+    /**
+     * Devuelve una cadena de texto formateada con la lista de los docentes responsables.
+     * 
+     * @return String con el listado de docentes responsables (Formato 3).
+     */
+    public String listaDeDocentesResponsables() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Lista de Docentes Responsables:\n\n");
+        
+        List<Docente> responsables = docentesResponsables();
+
+        for (Docente d : responsables) {
+            sb.append("* D.N.I.: ").append(d.getDniSocio())
+              .append(" || ").append(d.getNombre())
+              .append(" (").append(d.getArea()).append(")")
+              .append(" || Libros Prestados: ").append(d.cantLibrosPrestados())
+              .append("\n");
+        }
+        
+        return sb.toString();
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /**
+     * Calcula la cantidad total de socios registrados en la biblioteca que coinciden con un tipo específico.
+     * 
+     * @param p_objeto El tipo de socio a buscar (por ejemplo, "Estudiante" o "Docente").
+     * @return La cantidad de socios que pertenecen a la clase indicada.
+     */
     public int cantidadDeSociosPorTipo(String p_objeto){
          int sociosTotales = 0;
          for(Socio unSocio : this.getSocios()){
@@ -304,6 +307,13 @@ public class Biblioteca {
          }
          return sociosTotales;
     }
+
+    /**
+     * Recupera una lista de todos los préstamos de la biblioteca que se encuentran 
+     * vencidos a la fecha actual, evaluando el historial de cada socio.
+     * 
+     * @return Un ArrayList con los objetos Prestamo cuya fecha de devolución ya ha expirado.
+     */
     public ArrayList<Prestamo> prestamosVencidos(){
         Calendar fechaDeHoy =  Calendar.getInstance();
         ArrayList<Prestamo> vencidos = new ArrayList<>();
@@ -316,6 +326,13 @@ public class Biblioteca {
         }
         return vencidos;
     }
+
+    /**
+     * Genera una lista exclusiva de los docentes que cumplen con la condición de ser responsables,
+     * evaluando y filtrando el padrón completo de socios.
+     * 
+     * @return Un ArrayList de objetos Docente que tienen la propiedad de responsabilidad activa.
+     */
     public ArrayList<Docente> docentesResponsables(){
         ArrayList<Docente> docentes = new ArrayList<>();
         for(Socio unSocio : this.getSocios()){
@@ -328,6 +345,16 @@ public class Biblioteca {
         }
         return docentes;
     }
+
+    /**
+     * Identifica qué socio tiene actualmente en su poder un libro específico.
+     * Si el libro está prestado, recupera el préstamo activo y busca al responsable 
+     * cotejando las colecciones de cada miembro.
+     * 
+     * @param p_libro El libro cuyo estado de préstamo y poseedor se desea consultar.
+     * @return Una cadena de texto indicando el nombre y DNI del socio que posee el libro, 
+     *         o un mensaje notificando que no se encuentra prestado actualmente.
+     */
     public String quienTieneElLibro(Libro p_libro){
         if (p_libro.prestado()) {
             Prestamo prestamoActual = p_libro.ultimoPrestamo();
@@ -340,6 +367,13 @@ public class Biblioteca {
             return "El libro no se encuentra prestado actualmente";
     }
 
+    /**
+     * Genera un reporte formateado con el listado detallado de todos los socios registrados.
+     * Incluye el número de orden, DNI, nombre, tipo de socio, 
+     * la cantidad de libros que tienen prestados actualmente y un totalizador estadístico final.
+     * 
+     * @return Una cadena de texto con el listado completo y las cantidades agrupadas.
+     */
     public String listaDeSocios(){
         String listadoSocios = "";
         int ordenSocio = 1;
