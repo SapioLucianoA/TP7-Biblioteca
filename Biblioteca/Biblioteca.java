@@ -292,81 +292,12 @@ public class Biblioteca {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    /**
+     * Calcula la cantidad total de socios registrados en la biblioteca que coinciden con un tipo específico.
+     * 
+     * @param p_objeto El tipo de socio a buscar (por ejemplo, "Estudiante" o "Docente").
+     * @return La cantidad de socios que pertenecen a la clase indicada.
+     */
     public int cantidadDeSociosPorTipo(String p_objeto){
          int sociosTotales = 0;
          for(Socio unSocio : this.getSocios()){
@@ -376,6 +307,13 @@ public class Biblioteca {
          }
          return sociosTotales;
     }
+
+    /**
+     * Recupera una lista de todos los préstamos de la biblioteca que se encuentran 
+     * vencidos a la fecha actual, evaluando el historial de cada socio.
+     * 
+     * @return Un ArrayList con los objetos Prestamo cuya fecha de devolución ya ha expirado.
+     */
     public ArrayList<Prestamo> prestamosVencidos(){
         Calendar fechaDeHoy =  Calendar.getInstance();
         ArrayList<Prestamo> vencidos = new ArrayList<>();
@@ -388,6 +326,13 @@ public class Biblioteca {
         }
         return vencidos;
     }
+
+    /**
+     * Genera una lista exclusiva de los docentes que cumplen con la condición de ser responsables,
+     * evaluando y filtrando el padrón completo de socios.
+     * 
+     * @return Un ArrayList de objetos Docente que tienen la propiedad de responsabilidad activa.
+     */
     public ArrayList<Docente> docentesResponsables(){
         ArrayList<Docente> docentes = new ArrayList<>();
         for(Socio unSocio : this.getSocios()){
@@ -400,6 +345,16 @@ public class Biblioteca {
         }
         return docentes;
     }
+
+    /**
+     * Identifica qué socio tiene actualmente en su poder un libro específico.
+     * Si el libro está prestado, recupera el préstamo activo y busca al responsable 
+     * cotejando las colecciones de cada miembro.
+     * 
+     * @param p_libro El libro cuyo estado de préstamo y poseedor se desea consultar.
+     * @return Una cadena de texto indicando el nombre y DNI del socio que posee el libro, 
+     *         o un mensaje notificando que no se encuentra prestado actualmente.
+     */
     public String quienTieneElLibro(Libro p_libro){
         if (p_libro.prestado()) {
             Prestamo prestamoActual = p_libro.ultimoPrestamo();
@@ -412,6 +367,13 @@ public class Biblioteca {
             return "El libro no se encuentra prestado actualmente";
     }
 
+    /**
+     * Genera un reporte formateado con el listado detallado de todos los socios registrados.
+     * Incluye el número de orden, DNI, nombre, tipo de socio, 
+     * la cantidad de libros que tienen prestados actualmente y un totalizador estadístico final.
+     * 
+     * @return Una cadena de texto con el listado completo y las cantidades agrupadas.
+     */
     public String listaDeSocios(){
         String listadoSocios = "";
         int ordenSocio = 1;
