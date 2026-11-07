@@ -206,10 +206,82 @@ public class Biblioteca {
         throw new LibroNoPrestadoException("El libro " + p_prestamo.getLibro().getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
 
+    /**
+     * Busca y devuelve el socio que posee el DNI pasado como parámetro.
+     * 
+     * @param dni El DNI del socio a buscar.
+     * @return El objeto Socio encontrado, o null si no existe.
+     */
+    public Socio buscarSocio(int p_dniSocio) {
+        for (Socio s : socios) {
+            if (s.getDniSocio() == p_dniSocio) {
+                return s;
+            }
+        }
+        return null;
+    }
     
-    
-    
-    
+    /**
+     * Devuelve una cadena de texto formateada con la lista de libros de la biblioteca.
+     * 
+     * @return String con el listado de libros.
+     */
+    public String listaDeLibros() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Lista de Libros:\n\n");
+        
+        int i = 1;
+        for (Libro l : libros) {
+            String prestadoStr = l.prestado() ? "(Si)" : "(No)";
+            
+            sb.append(i).append(") Titulo: ").append(l.getTitulo())
+              .append(" || Prestado: ").append(prestadoStr)
+              .append("\n");
+            i++;
+        }
+        
+        return sb.toString();
+    }
+
+    /**
+     * Devuelve una cadena de texto con la lista de los títulos con los que cuenta la Biblioteca,
+     * sin repetir en caso de haber más de un ejemplar.
+     * 
+     * @return String con los títulos únicos de la biblioteca.
+     */
+    public String listaDeTitulos() {
+        Set<String> titulosUnicos = new HashSet<>();
+        for (Libro l : libros) {
+            titulosUnicos.add(l.getTitulo());
+        }
+        StringBuilder sb = new StringBuilder();
+        for (String t : titulosUnicos) {
+            sb.append(t).append("\n");
+        }
+        return sb.toString();
+    }
+
+    /**
+     * Devuelve una cadena de texto formateada con la lista de los docentes responsables.
+     * 
+     * @return String con el listado de docentes responsables (Formato 3).
+     */
+    public String listaDeDocentesResponsables() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Lista de Docentes Responsables:\n\n");
+        
+        List<Docente> responsables = docentesResponsables();
+
+        for (Docente d : responsables) {
+            sb.append("* D.N.I.: ").append(d.getDniSocio())
+              .append(" || ").append(d.getNombre())
+              .append(" (").append(d.getArea()).append(")")
+              .append(" || Libros Prestados: ").append(d.cantLibrosPrestados())
+              .append("\n");
+        }
+        
+        return sb.toString();
+    }
     
     
     
