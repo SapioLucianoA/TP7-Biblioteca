@@ -1,10 +1,8 @@
-package Biblioteca;
-
 import java.util.*;
 /**
  *Especializacion de la clase Socio.
  * 
- * @author (Gomez Varela, VerÃ³nica) 
+ * @author (Gomez Varela, Verónica) 
  * @version (1.0 30/10/2026)
  */
 public class Docente extends Socio{
@@ -39,24 +37,29 @@ public class Docente extends Socio{
     }
     
     /**
-     * DescripciÃ³n  del metodo
+     * Descripción  del metodo
      * 
      * @param no posee parametros 
      * @return retirna un tipo booleano    
      */
     public boolean esResponsable(){
-    
-        
-        return true;
+     Calendar fechaHoy = new GregorianCalendar();
+     ArrayList<Prestamo> listaPrestamos = this.getPrestamos();
+
+     for(Prestamo unPrestamo : listaPrestamos){
+        if(unPrestamo.vencido(fechaHoy)){
+            return false; 
+        }
+     }
+     return true; 
     }
     
-    
     public void cambiarDiasDePrestamo(int p_dias){
-       System.out.println(""); 
+       this.setDiasPrestamo(this.getDiasPrestamo() + p_dias);
     }
     
     public boolean puedePedir(){
-      return true;   
+      return super.puedePedir();
     }
     
      /**
@@ -65,7 +68,7 @@ public class Docente extends Socio{
      * @param no posee parametros  
      * @return un tipo String     
      */
-    public String soyDeLaCLase(){
+    public String soyDeLaClase(){
        return "Docente";   
     }    
 }
