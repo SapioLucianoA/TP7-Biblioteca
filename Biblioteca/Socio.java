@@ -11,57 +11,75 @@ import java.util.ArrayList;
 
   
     public Socio(int p_dniSocio, String p_nombre, int p_diasPrestamo){
+         this.setDniSocio(p_dniSocio);
+        this.setNombre(p_nombre);
+        this.setDiasPrestamo(p_diasPrestamo);
+        this.setPrestamos(new ArrayList<Prestamo> ());
     }
     
     
     public Socio(int p_dniSocio, String p_nombre, int p_diasPrestamo, ArrayList <Prestamo> p_prestamos){
+        this.setDniSocio(p_dniSocio);
+        this.setNombre(p_nombre);
+        this.setDiasPrestamo(p_diasPrestamo);
+        this.setPrestamos(p_prestamos);
     }
     
     private void setDniSocio(int p_dniSocio){
+        this.dniSocio = p_dniSocio;
     }
     
     public int getDniSocio(){
-        return 0;
+        return this.dniSocio;
     }
     
     private void setNombre(String p_nombre){
+        this.nombre = p_nombre;
     }
     
     public String getNombre(){
-        return null;
+        return this.nombre;
     }
     
     private void setPrestamos(ArrayList <Prestamo> p_prestamos){
+        this.prestamos = p_prestamos;
     }
     
     public ArrayList <Prestamo> getPrestamos(){
-        return null;
+        return this.prestamos;
     }
     
     public boolean addPrestamo(Prestamo p_prestamo){
-        return true;
+       return this.getPrestamos().add(p_prestamo);
     }
     
     public boolean removePrestamo(Prestamo p_prestamo){
-         return true;
+          return this.getPrestamos().remove(p_prestamo);
     }
     
     public int cantLibrosPrestados(){
-        return 0;
-    }
+         return this.getPrestamos().size();
     
     public void setDiasPrestamo(int p_dias){
+        this.diasPrestamo = p_dias;
     }
     
     public int getDiasPrestamo(){
-        return 0;
+        return this.diasPrestamo;
     }
     
     public String toString(){
-        return null;
+         return ("D.N.I.: " + this.getDniSocio() + " || " + this.getNombre() + 
+        " (" + this.soyDeLaClase() + ") || Libros Prestados: " + this.cantLibrosPrestados());
     }
     
     public boolean puedePedir(){
+        Calendar fechaHoy = Calendar.getInstance();
+        for(Prestamo x: this.getPrestamos()){
+            if(x.vencido(fechaHoy)){
+                return false;
+            }
+        }
         return true;
     }
     

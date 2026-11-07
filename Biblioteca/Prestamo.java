@@ -9,44 +9,75 @@ import java.util.*;
     private Libro libro;
 
     public Prestamo(Calendar p_fechaRetiro, Socio p_socio, Libro p_libro) {
+        this.setFechaRetiro(p_fechaRetiro);
+        this.setSocio(p_socio);
+        this.setLibro(p_libro);
     }
 
     private void setFechaRetiro(Calendar p_fechaRetiro) {
+         this.fechaRetiro = p_fechaRetiro;
     }
 
     public Calendar getFechaRetiro() {
-        return null;
+        return this.fechaRetiro;
     }
 
     private void setFechaDevolucion(Calendar p_fechaDevolucion) {
+        this.fechaDevolucion = p_fechaDevolucion;
     }
 
     public void registrarFechaDevolucion(Calendar p_fechaDevolucion) {
+        this.setFechaDevolucion(p_fechaDevolucion);
     }
 
     public Calendar getFechaDevolucion() {
-        return null;
+        return this.fechaDevolucion;
     }
 
     private void setSocio(Socio p_socio) {
+        this.socio = p_socio;
     }
 
     public Socio getSocio() {
-        return null;
+        return this.socio;
     }
 
     private void setLibro(Libro p_libro) {
+        this.libro = p_libro;
     }
 
     public Libro getLibro() {
-        return null;
+        return this.libro;
     }
 
     public boolean vencido(Calendar p_fecha) {
-        return true;
+        Calendar fechaVencimiento = Calendar.getInstance();
+        int day = this.getFechaRetiro().get(Calendar.DAY_OF_MONTH);
+        int month = this.getFechaRetiro().get(Calendar.MONTH);
+        int year = this.getFechaRetiro().get(Calendar.YEAR);
+
+        fechaVencimiento.set(year, month, day);
+
+        fechaVencimiento.add(Calendar.DAY_OF_MONTH, this.getSocio().getDiasPrestamo());
+
+        return p_fecha.after(fechaVencimiento);
     }
 
     public String toString() {
-        return null;
+       String retiroStr = "\n\nRetiro: " + this.getFechaRetiro().get(Calendar.YEAR) + "/" + this.getFechaRetiro().get(Calendar.MONTH)
+            + "/" + this.getFechaRetiro().get(Calendar.DAY_OF_MONTH);
+        String devolucionStr = " - Devolucion: ";
+
+        if (this.getFechaDevolucion() != null) {
+            devolucionStr += this.getFechaDevolucion().get(Calendar.YEAR) + "/"
+            + this.getFechaDevolucion().get(Calendar.MONTH) + "/"
+            + this.getFechaDevolucion().get(Calendar.DAY_OF_MONTH) + "\n";
+        } else {
+            devolucionStr += "N/A \n";
+        }
+
+        String libroStr = "Libro: " + this.getLibro().getTitulo() + "\n";
+        String socioStr = "Socio: " + this.getSocio().getNombre();
+        return retiroStr + devolucionStr + libroStr + socioStr;
     }
 }   
