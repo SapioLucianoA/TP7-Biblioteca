@@ -2,7 +2,7 @@ import java.util.*;
 /**
  *Especializacion de la clase Socio.
  * 
- * @author (Gomez Varela, Verónica) 
+ * @author (Gomez Varela, Veronica) 
  * @version (1.0 30/10/2026)
  */
 public class Docente extends Socio{
@@ -37,7 +37,7 @@ public class Docente extends Socio{
     }
     
     /**
-     * Descripción  del metodo
+     * Descripcion  del metodo
      * 
      * @param no posee parametros 
      * @return retirna un tipo booleano    
