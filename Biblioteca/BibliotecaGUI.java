@@ -11,7 +11,7 @@ import java.util.Calendar;
  * listados, utilizando únicamente los métodos públicos de las clases del modelo.
  * Los resultados se muestran en un área de texto ubicada en la parte inferior.
  * 
- * @author (nombre de los integrantes del grupo)
+ * @author (Sapio Luciano / Agustin Romero)
  * @version 1.0
  */
 public class BibliotecaGUI extends JFrame {
