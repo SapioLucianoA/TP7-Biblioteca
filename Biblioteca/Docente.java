@@ -39,7 +39,7 @@ public class Docente extends Socio{
     }
     
     /**
-     * Descripci�n  del metodo
+     * Descripcion  del metodo
      * 
      * @param no posee parametros 
      * @return retirna un tipo booleano    
