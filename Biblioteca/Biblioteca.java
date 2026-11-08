@@ -202,7 +202,7 @@ public class Biblioteca {
             p_libro.ultimoPrestamo().registrarFechaDevolucion(Calendar.getInstance());
             return;
         }
-        throw new LibroNoPrestadoException("El libro " + p_prestamo.getLibro().getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
+        throw new LibroNoPrestadoException("El libro " + p_libro.getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
 
     /**
@@ -363,7 +363,7 @@ public class Biblioteca {
                 }
             }
         }
-            return "El libro no se encuentra prestado actualmente";
+            throw new LibroNoPrestadoException("El libro " + p_libro.getTitulo() + " no se encuentra prestado");
     }
 
     /**
