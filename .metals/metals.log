@@ -1379,3 +1379,510 @@ Exception in thread "pool-1-thread-284" java.lang.OutOfMemoryError: Java heap sp
 2026.11.07 22:43:30 INFO  Memory monitor started
 2026.11.07 22:43:34 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.11.07 22:43:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:43:36 WARN  no build tool detected in workspace 'C:\Users\Estudiante\TP7-Biblioteca'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.07 22:43:36 WARN  Build server is not auto-connectable.
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Estudiante.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java
+2026.11.07 22:43:36 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.07 22:43:49 INFO  time: code lens generation in 8.72s
+2026.11.07 22:46:51 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:46:54 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:46:54 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:46:55 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:46:55 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:46:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:46:57 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.07 22:50:13 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 22:55:19 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:11 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:11 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:11 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:12 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:16 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java
+2026.11.07 23:11:18 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:18 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+nov 07, 2026 11:11:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2026.11.07 23:11:20 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:31 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:31 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java. Using fallback presentation compiler.
+2026.11.07 23:11:35 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java
+nov 07, 2026 11:11:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2026.11.07 23:11:36 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java. Using fallback presentation compiler.
+2026.11.07 23:11:36 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java. Using fallback presentation compiler.
+nov 07, 2026 11:11:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+nov 07, 2026 11:11:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+nov 07, 2026 11:11:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+nov 07, 2026 11:11:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+2026.11.07 23:11:37 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java
+2026.11.07 23:11:37 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:37 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:38 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:40 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:46 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:46 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:48 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:50 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java. Using fallback presentation compiler.
+2026.11.07 23:11:50 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java
+nov 07, 2026 11:11:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2026.11.07 23:11:50 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java. Using fallback presentation compiler.
+2026.11.07 23:11:50 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Docente.java. Using fallback presentation compiler.
+nov 07, 2026 11:11:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+nov 07, 2026 11:11:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+nov 07, 2026 11:11:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+nov 07, 2026 11:11:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2026.11.07 23:11:51 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Estudiante.java. Using fallback presentation compiler.
+2026.11.07 23:11:52 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Estudiante.java
+nov 07, 2026 11:11:52 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+2026.11.07 23:11:51 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Estudiante.java. Using fallback presentation compiler.
+2026.11.07 23:11:53 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java
+2026.11.07 23:11:53 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.07 23:11:53 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.07 23:11:56 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java
+2026.11.07 23:11:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.07 23:11:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+nov 07, 2026 11:11:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2026.11.07 23:11:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+nov 07, 2026 11:11:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+2026.11.07 23:11:59 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+nov 07, 2026 11:11:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+nov 07, 2026 11:11:59 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+2026.11.07 23:16:44 INFO  Shutting down server
+2026.11.07 23:16:44 INFO  Memory monitor stopped
+2026.11.07 23:16:44 INFO  shutting down Metals
+2026.11.07 23:16:44 INFO  Exiting server
+2026.11.08 18:01:49 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\Estudiante\TP7-Biblioteca' for client Visual Studio Code 1.145.2.
+2026.11.08 18:01:49 INFO  time: initialize in 0.64s
+2026.11.08 18:01:50 INFO  Memory monitor started
+2026.11.08 18:02:01 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.08 18:02:05 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:02:11 WARN  no build tool detected in workspace 'C:\Users\Estudiante\TP7-Biblioteca'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.08 18:02:11 WARN  Build server is not auto-connectable.
+2026.11.08 18:02:11 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:02:12 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:02:12 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java
+2026.11.08 18:02:14 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/GestionBiblioteca.java. Output:
+
+2026.11.08 18:02:14 INFO  time: code lens generation in 3.37s
+2026.11.08 18:02:20 INFO  time: code lens generation in 7.93s
+2026.11.08 18:02:39 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:02:58 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:03:14 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:03:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2026.11.08 18:03:15 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:03:47 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:04:41 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:04:47 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:00 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java
+2026.11.08 18:05:00 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:05:04 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2026.11.08 18:05:09 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:05:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2026.11.08 18:05:41 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:42 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+nov 08, 2026 6:05:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2026.11.08 18:05:41 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:45 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+2026.11.08 18:05:47 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:47 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2026.11.08 18:05:48 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:48 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:48 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:49 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+2026.11.08 18:05:49 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+2026.11.08 18:05:55 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:05:55 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:05:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+2026.11.08 18:05:55 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:01 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:01 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:02 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/GestionBiblioteca.java. Output:
+
+2026.11.08 18:06:02 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:06:02 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:03 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java
+2026.11.08 18:06:04 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java
+2026.11.08 18:06:04 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java
+2026.11.08 18:06:04 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java
+nov 08, 2026 6:06:04 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62
+2026.11.08 18:06:04 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:06:04 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2026.11.08 18:06:04 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:05 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:06:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2026.11.08 18:06:05 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:06:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+nov 08, 2026 6:06:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2026.11.08 18:06:05 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:06 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/Socio.java. Output:
+
+nov 08, 2026 6:06:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+2026.11.08 18:06:06 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:06 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:06:07 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+2026.11.08 18:06:08 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:19 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:06:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+2026.11.08 18:06:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:06:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:06:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+2026.11.08 18:06:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:16 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:16 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:19 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:07:19 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:19 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/GestionBiblioteca.java. Output:
+
+2026.11.08 18:07:19 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:19 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+nov 08, 2026 6:07:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+2026.11.08 18:07:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 99
+nov 08, 2026 6:07:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+2026.11.08 18:07:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+2026.11.08 18:07:23 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:07:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:24 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/GestionBiblioteca.java. Output:
+
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 101
+2026.11.08 18:07:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+2026.11.08 18:07:24 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+2026.11.08 18:07:24 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+2026.11.08 18:07:24 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+nov 08, 2026 6:07:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+nov 08, 2026 6:07:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+2026.11.08 18:07:24 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:25 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:07:25 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:25 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/GestionBiblioteca.java. Output:
+
+2026.11.08 18:07:27 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:27 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:27 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:27 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:07:29 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:29 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:29 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+nov 08, 2026 6:07:29 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+2026.11.08 18:07:29 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:30 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:30 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 126
+2026.11.08 18:07:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 128
+2026.11.08 18:07:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:35 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:07:42 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:42 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 132
+nov 08, 2026 6:07:42 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.08 18:07:43 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:07:52 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.08 18:07:52 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:08:19 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:21 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java
+nov 08, 2026 6:08:21 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+2026.11.08 18:08:21 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+nov 08, 2026 6:08:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+2026.11.08 18:08:21 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:21 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+nov 08, 2026 6:08:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 145
+2026.11.08 18:08:21 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+nov 08, 2026 6:08:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+2026.11.08 18:08:22 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:25 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+nov 08, 2026 6:08:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 148
+2026.11.08 18:08:25 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:44 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+nov 08, 2026 6:08:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 168
+2026.11.08 18:08:44 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+nov 08, 2026 6:08:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+2026.11.08 18:08:44 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:45 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:45 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:45 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:46 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:08:46 WARN  Running javac-semanticdb failed for file:///C:/Users/Estudiante/TP7-Biblioteca/Biblioteca/Socio.java. Output:
+
+2026.11.08 18:08:47 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java
+2026.11.08 18:09:00 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 18:09:00 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 18:09:00 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 18:09:01 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java
+2026.11.08 18:09:02 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 18:09:02 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 18:09:05 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 18:09:06 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java
+2026.11.08 18:09:05 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 18:09:08 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 18:09:08 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 18:09:10 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java
+nov 08, 2026 6:09:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+2026.11.08 18:09:11 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 18:09:14 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 18:09:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:09:23 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:09:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:09:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 204
+2026.11.08 18:09:24 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:09:31 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java
+2026.11.08 18:09:31 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:09:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:09:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:09:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+2026.11.08 18:09:41 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:09:55 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:09:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+2026.11.08 18:17:06 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:17:06 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:17:07 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+2026.11.08 18:17:08 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:17:10 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:17:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+2026.11.08 18:17:15 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:17:16 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:17:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 236
+2026.11.08 18:17:24 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 18:17:24 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java
+2026.11.08 18:17:25 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 18:17:26 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 18:17:26 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:17:27 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 18:17:26 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:17:28 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 18:17:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:17:34 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java
+nov 08, 2026 6:17:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 257
+2026.11.08 18:17:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:17:37 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:17:40 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:17:41 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 270
+nov 08, 2026 6:17:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+2026.11.08 18:18:15 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:18:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+2026.11.08 18:18:15 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:18:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 322
+2026.11.08 18:18:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:18:17 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:18:28 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:18:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 325
+2026.11.08 18:18:31 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:18:31 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:18:33 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:18 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:18 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:20 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:20 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:20 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:21 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:21 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:23 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:26:24 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 338
+2026.11.08 18:26:27 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:26:27 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 339
+2026.11.08 18:26:27 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:34 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:26:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 345
+2026.11.08 18:26:37 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:41 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:26:43 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:26:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 355
+nov 08, 2026 6:26:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 357
+nov 08, 2026 6:26:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+nov 08, 2026 6:26:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 361
+2026.11.08 18:36:12 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:36:13 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:37:14 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 18:37:18 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Biblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 6:38:04 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 377
+nov 08, 2026 6:38:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 379
+nov 08, 2026 6:38:10 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 381
+nov 08, 2026 6:38:10 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 383
+nov 08, 2026 6:38:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 386
+nov 08, 2026 6:38:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 387
+nov 08, 2026 6:38:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 388
+nov 08, 2026 6:38:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 389
+nov 08, 2026 6:38:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 394
+2026.11.08 18:39:08 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:39:14 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 18:59:04 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 6:59:08 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 409
+nov 08, 2026 6:59:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 412
+nov 08, 2026 6:59:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 423
+nov 08, 2026 6:59:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 425
+nov 08, 2026 6:59:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 427
+nov 08, 2026 6:59:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+nov 08, 2026 6:59:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 433
+nov 08, 2026 6:59:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 434
+nov 08, 2026 6:59:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 435
+nov 08, 2026 6:59:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 437
+2026.11.08 20:29:45 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 8:29:45 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 441
+2026.11.08 20:29:46 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java. Using fallback presentation compiler.
+2026.11.08 20:29:48 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java
+nov 08, 2026 8:29:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 446
+2026.11.08 20:29:51 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 20:29:51 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java
+nov 08, 2026 8:29:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 448
+2026.11.08 20:29:51 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 20:29:51 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Prestamo.java. Using fallback presentation compiler.
+2026.11.08 20:29:52 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 20:29:52 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java
+2026.11.08 20:29:52 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 20:29:54 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\LibroNoPrestadoException.java. Using fallback presentation compiler.
+2026.11.08 20:29:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 20:29:56 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java
+2026.11.08 20:29:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 20:29:56 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 20:29:58 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Libro.java. Using fallback presentation compiler.
+2026.11.08 20:30:00 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\Socio.java
+2026.11.08 20:30:13 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 8:30:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 472
+2026.11.08 20:30:14 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 20:30:13 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+2026.11.08 20:30:14 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java. Using fallback presentation compiler.
+nov 08, 2026 8:30:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 473
+2026.11.08 20:30:36 INFO  Shutting down server
+2026.11.08 20:30:36 INFO  Memory monitor stopped
+2026.11.08 20:30:36 INFO  shutting down Metals
+2026.11.08 20:30:36 INFO  Exiting server

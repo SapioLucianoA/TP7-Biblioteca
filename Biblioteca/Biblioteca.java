@@ -1,3 +1,5 @@
+package Biblioteca;
+
  
 
 import java.util.ArrayList;
@@ -174,7 +176,7 @@ public class Biblioteca {
      * @param p_nombre el nombre del socio a agregar
      * @param p_area del socio a agregar
      */
-    public void nuevoSocioProfesor(int p_dniSocio, String p_nombre, String p_area) {
+    public void nuevoSocioDocente(int p_dniSocio, String p_nombre, String p_area) {
         Socio socio = new Docente(p_dniSocio, p_nombre, p_area);
         this.getSocios().add(socio);
     }
@@ -195,15 +197,12 @@ public class Biblioteca {
      * @param p_prestamo el préstamo que se desea devolver
      * @throws LibroNoPrestadoException si el libro no se encuentra prestado
      */
-    public void devolverLibro(Prestamo p_prestamo) {
-        for (Libro libro : this.getLibros()) {
-            if (libro.getPrestamos().contains(p_prestamo)) {
-                int index = libro.getPrestamos().indexOf(p_prestamo); //para conocer el indice del prestamo de un libro dentro de la coleccion de prestamos
-                libro.getPrestamos().get(index).registrarFechaDevolucion(Calendar.getInstance());
-                return;
-            }
+    public void devolverLibro(Libro p_libro) {
+        if(p_libro.prestado()){
+            p_libro.ultimoPrestamo().registrarFechaDevolucion(Calendar.getInstance());
+            return;
         }
-        throw new LibroNoPrestadoException("El libro " + p_prestamo.getLibro().getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
+        throw new LibroNoPrestadoException("El libro " + p_libro.getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
 
     /**
@@ -334,7 +333,7 @@ public class Biblioteca {
      * @return Un ArrayList de objetos Docente que tienen la propiedad de responsabilidad activa.
      */
     public ArrayList<Docente> docentesResponsables(){
-        ArrayList<Docente> docentes = new ArrayList<>();
+        ArrayList<Docente> docentes = new ArrayList<Docente>();
         for(Socio unSocio : this.getSocios()){
                 if (unSocio.soyDeLaClase().equalsIgnoreCase("docente")) {
                 Docente elDocente = (Docente) unSocio;
@@ -364,7 +363,7 @@ public class Biblioteca {
                 }
             }
         }
-            return "El libro no se encuentra prestado actualmente";
+            throw new LibroNoPrestadoException("El libro " + p_libro.getTitulo() + " no se encuentra prestado");
     }
 
     /**

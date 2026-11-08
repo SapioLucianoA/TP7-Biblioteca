@@ -1,4 +1,12 @@
+<<<<<<< HEAD
  import java.util.*;
+=======
+package Biblioteca;
+
+ 
+
+import java.util.*;
+>>>>>>> 59f27cfdcc0e70d1c46354faa6c0a645a294e9a2
 import java.util.ArrayList; 
 
     public abstract class Socio{
@@ -9,7 +17,7 @@ import java.util.ArrayList;
 
   
     public Socio(int p_dniSocio, String p_nombre, int p_diasPrestamo){
-         this.setDniSocio(p_dniSocio);
+        this.setDniSocio(p_dniSocio);
         this.setNombre(p_nombre);
         this.setDiasPrestamo(p_diasPrestamo);
         this.setPrestamos(new ArrayList<Prestamo> ());
@@ -56,8 +64,13 @@ import java.util.ArrayList;
     }
     
     public int cantLibrosPrestados(){
+<<<<<<< HEAD
          return this.getPrestamos().size();}
     
+=======
+         return this.getPrestamos().size();
+        }
+>>>>>>> 59f27cfdcc0e70d1c46354faa6c0a645a294e9a2
     public void setDiasPrestamo(int p_dias){
         this.diasPrestamo = p_dias;
     }

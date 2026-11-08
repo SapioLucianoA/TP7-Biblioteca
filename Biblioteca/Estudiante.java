@@ -1,7 +1,10 @@
+package Biblioteca;
+
 /**
  * Especializacion de la clase Estudiante.
  * 
  * @author (Gomez Varela, Veronica) 
+
  * @version (1.0 30/10/2026)
  */
 public class Estudiante extends Socio{

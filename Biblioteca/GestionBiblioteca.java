@@ -26,10 +26,10 @@ public class GestionBiblioteca {
         biblioteca.nuevoLibro("Code: The Hidden Language of Computer Hardware and Software", 1, "Editorial O", 1999);
         biblioteca.nuevoLibro("Programando Con JAVA", 1, "Editorial A", 2009);
         // Agregacion de docentes
-        biblioteca.nuevoSocioProfesor(32444552, "Juan Perez", "Informatica");
-        biblioteca.nuevoSocioProfesor(17982110, "Juan Fernandez", "Informatica");
-        biblioteca.nuevoSocioProfesor(10912002, "Maria Alegre", "Matematicas");
-        biblioteca.nuevoSocioProfesor(33492162, "Sebastian Taglia", "Quimica");
+        biblioteca.nuevoSocioDocente(32444552, "Juan Perez", "Informatica");
+        biblioteca.nuevoSocioDocente(17982110, "Juan Fernandez", "Informatica");
+        biblioteca.nuevoSocioDocente(10912002, "Maria Alegre", "Matematicas");
+        biblioteca.nuevoSocioDocente(33492162, "Sebastian Taglia", "Quimica");
         // Agregacion de estudiantes
         biblioteca.nuevoSocioEstudiante(28987498, "Francisco Paenza", "Licenciatura en sistemas");
         biblioteca.nuevoSocioEstudiante(31987123, "Cesar Milstein", "Ingenieria en sistemas");
@@ -110,7 +110,7 @@ public class GestionBiblioteca {
                             nombreD = entradaND.nextLine();
                             System.out.println("INGRESAR AREA DEL DOCENTE.");
                             areaD = entradaAD.nextLine();
-                            biblioteca.nuevoSocioProfesor(dniD, nombreD, areaD);
+                            biblioteca.nuevoSocioDocente(dniD, nombreD, areaD);
                         }
                         System.out.println("============================");
                         System.out.println("SOCIO AGREGADO EXITOSAMENTE!");
@@ -161,17 +161,16 @@ public class GestionBiblioteca {
                         }
                         System.out.println("=============================================================");
                         break;
-                    /** case 4:
-                        *System.out.println("=============================================================");
-                        *System.out.println(biblioteca.listaDeLibros());
-                        *System.out.println("Ingrese el numero asignado al libro!");
-                        *numeroL = entradaTitulo.nextInt();
-                        *biblioteca.devolverLibro(biblioteca.getLibros().get(numeroL - 1));
-                        *System.out.println("============================");
-                        *System.out.println("LIBRO DEVUELTO A LA BIBLIOTECA!");
-                        *System.out.println("============================");
-                        *break;
-                        */
+                    case 4:
+                        System.out.println("=============================================================");
+                        System.out.println(biblioteca.listaDeLibros());
+                        System.out.println("Ingrese el numero asignado al libro!");
+                        numeroL = entradaTitulo.nextInt();
+                        biblioteca.devolverLibro(biblioteca.getLibros().get(numeroL - 1));
+                        System.out.println("============================");
+                        System.out.println("LIBRO DEVUELTO A LA BIBLIOTECA!");
+                        System.out.println("============================");
+                        break;
                     case 5:
                         System.out.println("=============================================================");
                         System.out.println("=================Lista de Prestamos Vencidos=================");
