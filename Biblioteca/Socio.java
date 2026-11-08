@@ -1,6 +1,4 @@
- 
-
-import java.util.*;
+ import java.util.*;
 import java.util.ArrayList; 
 
     public abstract class Socio{
@@ -58,7 +56,7 @@ import java.util.ArrayList;
     }
     
     public int cantLibrosPrestados(){
-         return this.getPrestamos().size();
+         return this.getPrestamos().size();}
     
     public void setDiasPrestamo(int p_dias){
         this.diasPrestamo = p_dias;
