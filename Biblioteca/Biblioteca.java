@@ -1,3 +1,5 @@
+package Biblioteca;
+
  
 
 import java.util.ArrayList;
@@ -334,7 +336,7 @@ public class Biblioteca {
      * @return Un ArrayList de objetos Docente que tienen la propiedad de responsabilidad activa.
      */
     public ArrayList<Docente> docentesResponsables(){
-        ArrayList<Docente> docentes = new ArrayList<>();
+        ArrayList<Docente> docentes = new ArrayList<Docente>();
         for(Socio unSocio : this.getSocios()){
                 if (unSocio.soyDeLaClase().equalsIgnoreCase("docente")) {
                 Docente elDocente = (Docente) unSocio;

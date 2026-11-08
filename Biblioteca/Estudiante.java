@@ -1,7 +1,9 @@
+package Biblioteca;
+
 /**
- * Especialización de la clase Estudiante.
+ * Especializaciï¿½n de la clase Estudiante.
  * 
- * @author (Gomez Varela, Verónica) 
+ * @author (Gomez Varela, Verï¿½nica) 
  * @version (1.0 30/10/2026)
  */
 public class Estudiante extends Socio{
@@ -37,7 +39,7 @@ public class Estudiante extends Socio{
     
    
     /**
-     * Devuelve true si el Estudiante no tiene ningún préstamo vencido y si no tiene más 
+     * Devuelve true si el Estudiante no tiene ningï¿½n prï¿½stamo vencido y si no tiene mï¿½s 
      * de 3 libros prestados (en su poder). 
      * 
      * @param no posee parametros  
