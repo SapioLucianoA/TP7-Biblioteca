@@ -61,7 +61,7 @@ import java.util.ArrayList;
     
     public int cantLibrosPrestados(){
          return this.getPrestamos().size();
-    
+        }
     public void setDiasPrestamo(int p_dias){
         this.diasPrestamo = p_dias;
     }

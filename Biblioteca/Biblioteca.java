@@ -202,7 +202,7 @@ public class Biblioteca {
             p_libro.ultimoPrestamo().registrarFechaDevolucion(Calendar.getInstance());
             return;
         }
-        throw new LibroNoPrestadoException("El libro " + p_prestamo.getLibro().getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
+        throw new LibroNoPrestadoException("El libro " + p_libro.getTitulo() + " no se puede devolver ya que se encuentra en la biblioteca");
     }
 
     /**
@@ -333,7 +333,7 @@ public class Biblioteca {
      * @return Un ArrayList de objetos Docente que tienen la propiedad de responsabilidad activa.
      */
     public ArrayList<Docente> docentesResponsables(){
-        ArrayList<Docente> docentes = new ArrayList<>();
+        ArrayList<Docente> docentes = new ArrayList<Docente>();
         for(Socio unSocio : this.getSocios()){
                 if (unSocio.soyDeLaClase().equalsIgnoreCase("docente")) {
                 Docente elDocente = (Docente) unSocio;
@@ -363,7 +363,7 @@ public class Biblioteca {
                 }
             }
         }
-            return "El libro no se encuentra prestado actualmente";
+            throw new LibroNoPrestadoException("El libro " + p_libro.getTitulo() + " no se encuentra prestado");
     }
 
     /**
