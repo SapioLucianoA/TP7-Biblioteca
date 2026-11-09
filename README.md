@@ -3,7 +3,7 @@
 Práctico Integrador de **Programación Orientada a Objetos** (Java). Sistema que administra los préstamos de los libros de una biblioteca, con socios de dos tipos (estudiantes y docentes), reglas de préstamo propias de cada tipo e informes para la administración.
 
 - **Equipo:** `Equipo Object`
-- **Líder:** `Villagra, Facundo Nahuel`
+- **Líder:** `Sapio, Luciano`
 - **Grupo de laboratorio:** 3
 - **Tablero de trabajo (Trello):** `https://trello.com/b/9AhG6laN/tp7-blibioteca`
 
