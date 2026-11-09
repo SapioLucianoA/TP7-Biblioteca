@@ -47,18 +47,6 @@ Una biblioteca desea administrar los préstamos de sus libros.
 └── desktop.ini
 ```
 
-| Archivo | Descripción |
-|---|---|
-| `Socio.java` | Clase abstracta base de los socios |
-| `Estudiante.java` | Socio de tipo estudiante |
-| `Docente.java` | Socio de tipo docente |
-| `Prestamo.java` | Préstamo de un libro a un socio |
-| `Libro.java` | Libro con su ficha de préstamos |
-| `LibroNoPrestadoException.java` | Excepción propia para libros que no están prestados |
-| `Biblioteca.java` | Clase que administra los libros y los socios |
-| `GestionBiblioteca.java` | Programa principal (`main`) |
-| `BibliotecaGUI.java` | Interfaz gráfica del sistema |
-
 ---
 
 ## 3. Clases del sistema
@@ -287,7 +275,7 @@ La planificación y el seguimiento de tareas se hicieron con **Trello**.
 
 ---
 
-## 8. Trabajo con Git
+## 9. Trabajo con Git
 
 <!-- Reemplazar o completar con los pasos que el equipo ya tiene en el README.TXT -->
 
@@ -302,7 +290,7 @@ git push                            # subir los cambios al repositorio
 ```
 ---
 
-## 9. Cosas a mejorar
+## 10. Cosas a mejorar
 
 | Mejora | Detalle |
 |---|---|
