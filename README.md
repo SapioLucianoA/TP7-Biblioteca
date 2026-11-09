@@ -9,20 +9,6 @@ Práctico Integrador de **Programación Orientada a Objetos** (Java). Sistema qu
 
 ---
 
-## Índice
-
-1. [Descripción del problema](#1-descripción-del-problema)
-2. [Estructura del repositorio](#2-estructura-del-repositorio)
-3. [Diagrama de clases](#3-diagrama-de-clases)
-4. [Clases del sistema](#4-clases-del-sistema)
-5. [Formatos de los listados](#5-formatos-de-los-listados)
-6. [Clase GestionBiblioteca (programa principal)](#6-clase-gestionbiblioteca-programa-principal)
-7. [Cómo compilar y ejecutar](#7-cómo-compilar-y-ejecutar)
-8. [Organización del equipo](#8-organización-del-equipo)
-9. [Trabajo con Git](#9-trabajo-con-git)
-10. [Consignas de entrega](#10-consignas-de-entrega)
-
----
 
 ## 1. Descripción del problema
 
@@ -85,88 +71,11 @@ Una biblioteca desea administrar los préstamos de sus libros.
 
 ---
 
-## 3. Diagrama de clases
-
-```mermaid
-classDiagram
-    class Socio {
-        <<abstract>>
-        -int dniSocio
-        -String nombre
-        -int diasPrestamo
-        -ArrayList~Prestamo~ prestamos
-        +cantLibrosPrestados() int
-        +puedePedir() boolean
-        +toString() String
-        +soyDeLaClase()* String
-    }
-    class Estudiante {
-        -String carrera
-        +puedePedir() boolean
-        +soyDeLaClase() String
-    }
-    class Docente {
-        -String area
-        +esResponsable() boolean
-        +cambiarDiasDePrestamo(int) void
-        +puedePedir() boolean
-        +soyDeLaClase() String
-    }
-    class Prestamo {
-        -Calendar fechaRetiro
-        -Calendar fechaDevolucion
-        +registrarFechaDevolucion(Calendar) void
-        +vencido(Calendar) boolean
-        +toString() String
-    }
-    class Libro {
-        -String titulo
-        -int edicion
-        -String editorial
-        -int anio
-        +prestado() boolean
-        +ultimoPrestamo() Prestamo
-        +toString() String
-    }
-    class Biblioteca {
-        -String nombre
-        +nuevoLibro() void
-        +nuevoSocioEstudiante() void
-        +nuevoSocioProfesor() void
-        +prestarLibro() boolean
-        +devolverLibro() void
-        +cantidadDeSociosPorTipo() int
-        +prestamosVencidos() ArrayList
-        +docentesResponsables() ArrayList
-        +quienTieneElLibro() String
-        +buscarSocio() Socio
-        +listaDeSocios() String
-        +listaDeLibros() String
-        +listaDeTitulos() String
-        +listaDeDocentesResponsables() String
-    }
-    class LibroNoPrestadoException
-    class GestionBiblioteca
-
-    Socio <|-- Estudiante
-    Socio <|-- Docente
-    Socio "1" --> "0..*" Prestamo : prestamos
-    Libro "1" --> "0..*" Prestamo : prestamos
-    Prestamo --> Socio : socio
-    Prestamo --> Libro : libro
-    Biblioteca "1" o-- "0..*" Libro : libros
-    Biblioteca "1" o-- "0..*" Socio : socios
-    GestionBiblioteca ..> Biblioteca
-    Biblioteca ..> LibroNoPrestadoException
-```
-
----
-
-## 4. Clases del sistema
+## 3. Clases del sistema
 
 > Todas las clases usan **doble encapsulamiento**: los atributos son privados y los constructores asignan mediante los `set` (privados), que a su vez son los únicos que escriben el atributo.
 
-### 4.1 `Socio` (abstracta)
+### `Socio` (abstracta)
 
 Representa a un socio de la biblioteca. Es la superclase de `Estudiante` y `Docente`.
 
@@ -197,7 +106,7 @@ Representa a un socio de la biblioteca. Es la superclase de `Estudiante` y `Doce
 | `toString()` | `D.N.I.: <dni> \|\| <nombre> (<tipo>) \|\| Libros Prestados: <cantidad>` |
 | `soyDeLaClase()` | **Abstracto.** Cada subclase devuelve su tipo |
 
-### 4.2 `Estudiante` (extiende `Socio`)
+### `Estudiante` (extiende `Socio`)
 
 | Elemento | Descripción |
 |---|---|
@@ -207,7 +116,7 @@ Representa a un socio de la biblioteca. Es la superclase de `Estudiante` y `Doce
 | `puedePedir()` | `true` si tiene menos de 3 libros en su poder **y** `super.puedePedir()` (sin préstamos vencidos) |
 | `soyDeLaClase()` | Devuelve `"Estudiante"` |
 
-### 4.3 `Docente` (extiende `Socio`)
+### `Docente` (extiende `Socio`)
 
 | Elemento | Descripción |
 |---|---|
@@ -219,7 +128,7 @@ Representa a un socio de la biblioteca. Es la superclase de `Estudiante` y `Doce
 | `puedePedir()` | Delega en `Socio.puedePedir()`: un docente no tiene límite de libros, solo no debe tener vencidos |
 | `soyDeLaClase()` | Devuelve `"Docente"` |
 
-### 4.4 `Prestamo`
+### `Prestamo`
 
 Registra el préstamo de un libro a un socio.
 
@@ -234,7 +143,7 @@ Registra el préstamo de un libro a un socio.
 | `vencido(Calendar fecha)` | `true` si `fecha` es posterior a la fecha de vencimiento (fecha de retiro + `diasPrestamo` del socio) |
 | `toString()` | Retiro, devolución (o `N/A` si no se devolvió), título del libro y nombre del socio, en tres líneas |
 
-### 4.5 `Libro`
+### `Libro`
 
 Libro de la biblioteca con la ficha de todos sus préstamos.
 
@@ -250,11 +159,11 @@ Libro de la biblioteca con la ficha de todos sus préstamos.
 | `prestado()` | `true` si el último préstamo todavía no tiene fecha de devolución. Si no hay préstamos, `false` |
 | `toString()` | `Titulo: <titulo>` |
 
-### 4.6 `LibroNoPrestadoException`
+### `LibroNoPrestadoException`
 
 Excepción propia que extiende `RuntimeException`. Recibe un mensaje descriptivo en el constructor. Se lanza desde `Biblioteca.devolverLibro(...)` cuando se intenta devolver un libro que no está prestado.
 
-### 4.7 `Biblioteca`
+### `Biblioteca`
 
 Administra la colección de libros y la lista de socios.
 
@@ -308,50 +217,7 @@ Administra la colección de libros y la lista de socios.
 
 ---
 
-## 5. Formatos de los listados
-
-**Formato 1: Lista de socios**
-
-```
-Lista de Socios:
-
-1) D.N.I.: 14524782 || Juan Perez (Docente) || Libros Prestados: 6
-2) D.N.I.: 28987498 || Francisco Paenza (Estudiante) || Libros Prestados: 2
-**************************************
-Cantidad de Socios del tipo Estudiante: 1
-Cantidad de Socios del tipo Docente: 1
-**************************************
-```
-
-**Formato 2: Lista de libros**
-
-```
-Lista de Libros:
-
-1) Titulo: JAVA. Como Programar || Prestado: (No)
-2) Titulo: Longman. Diccionario Pocket || Prestado: (Si)
-```
-
-**Formato 3: Lista de docentes responsables**
-
-```
-Lista de Docentes Responsables:
-
-* D.N.I.: 14524782 || Juan Perez (Docente) || Libros Prestados: 6
-* D.N.I.: 17982110 || Juan Fernández (Docente) || Libros Prestados: 1
-```
-
-**`Prestamo.toString()`**
-
-```
-Retiro: 2014/10/15 - Devolución: 2014/10/28
-Libro: JAVA. Como Programar
-Socio: Juan Perez
-```
-
----
-
-## 6. Clase `GestionBiblioteca` (programa principal)
+## 4. Clase `GestionBiblioteca` (programa principal)
 
 Contiene el `main`. Crea una biblioteca, la carga con datos de ejemplo y ofrece un menú por consola para operar sobre ella.
 
@@ -396,7 +262,7 @@ Contiene el `main`. Crea una biblioteca, la carga con datos de ejemplo y ofrece 
 
 ---
 
-## 7. Cómo compilar y ejecutar
+## 5. Cómo compilar y ejecutar
 
 **Requisito:** Java 8 o superior (JDK).
 
@@ -417,7 +283,7 @@ java Biblioteca.GestionBiblioteca
 
 ---
 
-## 8. Organización del equipo
+## 6. Organización del equipo
 
 El equipo se dividió en cuatro subgrupos que trabajaron de forma independiente, y la clase `GestionBiblioteca` se resolvió entre los seis integrantes.
 
@@ -433,7 +299,7 @@ La planificación y el seguimiento de tareas se hicieron con **Trello**.
 
 ---
 
-## 9. Trabajo con Git
+## 7. Trabajo con Git
 
 <!-- Reemplazar o completar con los pasos que el equipo ya tiene en el README.TXT -->
 
@@ -447,15 +313,3 @@ git commit -m "mensaje descriptivo" # guardar los cambios con un mensaje claro
 git push                            # subir los cambios al repositorio
 ```
 
-Cada subgrupo modifica solo las clases que le corresponden, para evitar conflictos al hacer *merge*.
-
----
-
-## 10. Consignas de entrega
-
-- **Entrega:** proyecto **BlueJ** comprimido en un `.zip` más la ficha de autoevaluación.
-- **Nombre del archivo:** `NombreEquipo_PracticoIntegrador.zip`
-- **Dónde:** Aula Virtual, en la tarea creada para cada grupo de laboratorio. **Todos** los integrantes deben realizar la entrega.
-- **Fecha límite:** 09/11.
-- **Evaluación:** coloquio. Será individual (preguntas sobre las clases que implementó cada uno) y grupal (sobre `GestionBiblioteca`, el dominio del problema y los conceptos del paradigma aplicados).
-- **Requisitos técnicos:** usar colecciones genéricas y mantener todas las clases dentro de un mismo paquete.
