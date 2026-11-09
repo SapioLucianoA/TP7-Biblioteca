@@ -423,7 +423,7 @@ El equipo se dividió en cuatro subgrupos que trabajaron de forma independiente,
 
 | Subgrupo | Clases | Integrantes |
 |---|---|---|
-| Primero | `Prestamo`, `Socio` | `[completar]` |
+| Primero | `Prestamo`, `Socio` | `Romero, Benjamin` |
 | Segundo | `Estudiante`, `Docente` | Gomez Varela, Verónica |
 | Tercero | `Libro` | Villagra, Facundo Nahuel |
 | Cuarto | `Biblioteca` | Sapio, Luciano · Romero, Agustín · Veglia, Marcos |
