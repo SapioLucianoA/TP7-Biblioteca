@@ -1886,3 +1886,20 @@ WARNING: Unmatched cancel notification for request id 473
 2026.11.08 20:30:36 INFO  Memory monitor stopped
 2026.11.08 20:30:36 INFO  shutting down Metals
 2026.11.08 20:30:36 INFO  Exiting server
+2026.11.08 20:38:52 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\Estudiante\TP7-Biblioteca' for client Visual Studio Code 1.145.2.
+2026.11.08 20:38:53 INFO  time: initialize in 0.93s
+2026.11.08 20:38:54 INFO  Memory monitor started
+2026.11.08 20:39:05 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.08 20:39:09 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 20:39:17 WARN  no build tool detected in workspace 'C:\Users\Estudiante\TP7-Biblioteca'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.08 20:39:17 WARN  Build server is not auto-connectable.
+2026.11.08 20:39:21 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java
+2026.11.08 20:39:21 WARN  no build target for: C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\GestionBiblioteca.java
+2026.11.08 20:39:35 INFO  time: code lens generation in 1.94s
+2026.11.08 20:39:37 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 20:39:38 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+nov 08, 2026 8:39:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.11.08 20:39:38 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 20:39:54 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
+2026.11.08 20:40:09 INFO  no build target found for C:\Users\Estudiante\TP7-Biblioteca\Biblioteca\BibliotecaGUI.java. Using fallback presentation compiler.
