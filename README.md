@@ -265,10 +265,10 @@ El equipo se dividió en cuatro subgrupos que trabajaron de forma independiente,
 
 | Subgrupo | Clases | Integrantes |
 |---|---|---|
-| Primero | `Prestamo`, `Socio` | `Romero, Benjamin` |
-| Segundo | `Estudiante`, `Docente` | Gomez Varela, Verónica |
-| Tercero | `Libro` | Villagra, Facundo Nahuel |
-| Cuarto | `Biblioteca` | Sapio, Luciano · Romero, Agustín · Veglia, Marcos |
+| Primero | `Prestamo`, `Socio` | <a href="https://github.com/BRbenjamin"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Romero, Benjamin</a> |
+| Segundo | `Estudiante`, `Docente` | <a href="https://github.com/VeroSGV"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Gomez Varela, Verónica</a> |
+| Tercero | `Libro` | <a href="https://github.com/vnahuel454"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Villagra, Facundo Nahuel</a> |
+| Cuarto | `Biblioteca` | <a href="https://github.com/SapioLucianoA"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Sapio, Luciano</a> · <a href="https://github.com/appsgustin-rgb"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Romero, Agustín</a> · <a href="https://github.com/MaxigabVeglia"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Veglia, Marcos</a> |
 | Equipo completo | `GestionBiblioteca` | Los seis integrantes |
 
 La planificación y el seguimiento de tareas se hicieron con **Trello**.
@@ -282,11 +282,11 @@ La planificación y el seguimiento de tareas se hicieron con **Trello**.
 Flujo básico para trabajar en equipo:
 
 ```bash
-git clone <url-del-repositorio>     # una sola vez, para descargar el proyecto
-git pull                            # antes de empezar a trabajar: traer los cambios del resto
-git add <archivo>                   # agregar los archivos modificados
-git commit -m "mensaje descriptivo" # guardar los cambios con un mensaje claro
-git push                            # subir los cambios al repositorio
+git clone (https://github.com/SapioLucianoA/TP7-Biblioteca/     # una sola vez, para descargar el proyecto
+git pull                                                        # antes de empezar a trabajar: traer los cambios del resto
+git add <archivo>                                               # agregar los archivos modificados
+git commit -m "mensaje descriptivo"                             # guardar los cambios con un mensaje claro
+git push                                                        # subir los cambios al repositorio
 ```
 ---
 
