@@ -17,6 +17,24 @@ Este proyecto es un **trabajo práctico integrador de Programación Orientada a 
 
 ---
 
+## Division de Grupos e Integrantes
+
+Organización del equipo
+
+El equipo se dividió en cuatro subgrupos que trabajaron de forma independiente, y la clase `GestionBiblioteca` se resolvió entre los seis integrantes.
+
+| Subgrupo | Clases | Integrantes |
+|---|---|---|
+| Primero | `Prestamo`, `Socio` | <a href="https://github.com/BRbenjamin"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Romero, Benjamin</a> |
+| Segundo | `Estudiante`, `Docente` | <a href="https://github.com/VeroSGV"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Gomez Varela, Verónica</a> |
+| Tercero | `Libro` | <a href="https://github.com/vnahuel454"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Villagra, Facundo Nahuel</a> |
+| Cuarto | `Biblioteca` | <a href="https://github.com/SapioLucianoA"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Sapio, Luciano</a> · <a href="https://github.com/appsgustin-rgb"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Romero, Agustín</a> · <a href="https://github.com/MaxigabVeglia"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Veglia, Marcos</a> |
+| Equipo completo | `GestionBiblioteca` | Los seis integrantes |
+
+La planificación y el seguimiento de tareas se hicieron con **Trello**.
+
+---
+
 ## 1. Descripción del problema
 
 Una biblioteca desea administrar los préstamos de sus libros.
@@ -259,23 +277,7 @@ El número de libro es el que muestra la lista de libros (opción `11`).
 
 ---
 
-## 8. Organización del equipo
-
-El equipo se dividió en cuatro subgrupos que trabajaron de forma independiente, y la clase `GestionBiblioteca` se resolvió entre los seis integrantes.
-
-| Subgrupo | Clases | Integrantes |
-|---|---|---|
-| Primero | `Prestamo`, `Socio` | <a href="https://github.com/BRbenjamin"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Romero, Benjamin</a> |
-| Segundo | `Estudiante`, `Docente` | <a href="https://github.com/VeroSGV"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Gomez Varela, Verónica</a> |
-| Tercero | `Libro` | <a href="https://github.com/vnahuel454"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Villagra, Facundo Nahuel</a> |
-| Cuarto | `Biblioteca` | <a href="https://github.com/SapioLucianoA"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Sapio, Luciano</a> · <a href="https://github.com/appsgustin-rgb"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Romero, Agustín</a> · <a href="https://github.com/MaxigabVeglia"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="16"> Veglia, Marcos</a> |
-| Equipo completo | `GestionBiblioteca` | Los seis integrantes |
-
-La planificación y el seguimiento de tareas se hicieron con **Trello**.
-
----
-
-## 9. Trabajo con Git
+## 8.  Trabajo con Git
 
 <!-- Reemplazar o completar con los pasos que el equipo ya tiene en el README.TXT -->
 
@@ -290,7 +292,7 @@ git push                                                        # subir los camb
 ```
 ---
 
-## 10. Cosas a mejorar
+## 9. Cosas a mejorar
 
 | Mejora | Detalle |
 |---|---|
